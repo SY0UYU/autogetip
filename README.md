@@ -1,0 +1,2 @@
+# autogetip
+get raspberrypi ipaddress
