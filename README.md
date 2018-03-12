@@ -1,6 +1,9 @@
 # autogetip
 get raspberrypi ipaddress
 
-raspberrypi
-1.use
-  sudo python auto_get_mail.py
+## raspberrypi
+
+**use command**
+```bash
+sudo python auto_get_mail.py
+```
