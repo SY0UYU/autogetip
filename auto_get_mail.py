@@ -55,7 +55,7 @@ def writetofile(new):
 
 if __name__ == '__main__' :
 	time.sleep(10)
-	pyconf = open("/home/pi/get_mail.conf","r+")	#statu file
+	pyconf = open("/home/pi/defalut.conf","r+")	#statu file
 	newconf = pyconf.readlines()
 	if "OFFLINE" == check_network():
 		writetofile(newconf)
