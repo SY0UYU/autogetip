@@ -38,7 +38,7 @@ def send_ip(ip):
 	message['From'] = Header("From",'utf-8')
 	message['To'] = Header("To",'utf-8')
 	subject = "Python mail"
-	message['Suject'] = Header(subject,'utf-8')
+	message['Subject'] = Header(subject,'utf-8')
 	
 	try:
 		smtpObj = smtplib.SMTP('localhost')
