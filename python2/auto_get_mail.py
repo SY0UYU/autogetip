@@ -1,3 +1,8 @@
+'''
+# AUTHOR SY0UYU
+# UPDATE 18-5-11
+# Version 1.0.0
+'''
 #!\usr\bin\env python
 #-*- encoding:utf-8 -*-
 import requests
@@ -15,7 +20,7 @@ def getvalue(tmp):
 
 
 def check_network():
-	exit_code = os.system('ping -c 3 -i 0.2 -W 3 8.8.8.8')
+	exit_code = os.system('ping -c 3 -W 3 8.8.8.8')
 	if exit_code:
 	#run in connect failed
 		if "FALSE" == getvalue(newconf[0]):
