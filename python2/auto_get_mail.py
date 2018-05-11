@@ -3,7 +3,7 @@
 # UPDATE 18-5-11
 # Version 1.0.0
 '''
-#!\usr\bin\env python
+#!\usr\bin\env python2
 #-*- encoding:utf-8 -*-
 import requests
 import smtplib
